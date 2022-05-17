@@ -790,20 +790,11 @@ color: var(--text-color);
     align-items: center;
     justify-content: center;
     background-color: var(--third-background-color);
-}
-
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
-
-.modal-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon:focus,
-.modal-icon:hover {
+.modal-close:focus,
+.modal-close:hover {
     fill: var(--header-hover-color);
 }
 
